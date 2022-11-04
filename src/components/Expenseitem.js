@@ -1,10 +1,18 @@
-function Expenseitem() {
+import './ExpenseItem.css';
+
+function Expenseitem(props) {
+    const month = props.date.toLocaleString('en-US' , {month: 'Long'})
+
     return (
-        <div>
-            <div>November 2nd 2022</div>
+        <div className='expense-item'>
             <div>
-                <h2> Car Insurance</h2>
-                <div> $ 249.67 </div>
+                <div>{month}</div>
+                <div></div>
+                <div></div>
+            </div>
+            <div className='expense-item__description'>
+                <h2>{props.title}</h2>
+                <div className='expense-item__price'> ${props.amount} </div>
             </div>
         </div>
     );

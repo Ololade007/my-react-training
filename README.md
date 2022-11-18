@@ -11,3 +11,12 @@
 
 *. Learnt about props in react and how to change their values dynamically*
 
+11/10/2022
+*. A deeper dive into the world components*
+
+*. An introduction to state*
+
+11/18/2022
+*. Worked with user input in react*
+
+*.Got more comfortable with state *
